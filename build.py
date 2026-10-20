@@ -5,7 +5,8 @@ src=[('tt13',sorted(filter(ok,glob.glob('/workspace/tt13/k*.png'))),'none'),
 ('tt15',sorted(filter(ok,glob.glob('/workspace/tt15/p*.png'))),'ph'),
 ('tt16',sorted(glob.glob('/workspace/tt16/s[0-9][0-9].png')),'ph'),
 ('tt17',sorted(glob.glob('/workspace/tt17/t[0-9][0-9].png')),'ph'),
-    ('tt18',sorted(glob.glob('/workspace/tt18/u[0-9][0-9].png')),'ph')]
+    ('tt18',sorted(glob.glob('/workspace/tt18/u[0-9][0-9].png')),'ph'),
+    ('tt19',sorted(glob.glob('/workspace/tt19/u[0-9][0-9].png')),'ph')]
 items=[];seen=set()
 for tag,fs,kind in src:
   for f in fs:
