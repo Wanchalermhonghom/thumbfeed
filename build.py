@@ -29,6 +29,6 @@ body{{background:#0f0f0f;color:#f1f1f1;font-family:Roboto,Arial,sans-serif;margi
 .n{{position:absolute;left:8px;top:8px;background:#ffd400;color:#000;font-weight:700;font-size:13px;padding:2px 7px;border-radius:6px}}
 .m{{display:flex;gap:12px;margin-top:12px}}.a{{width:36px;height:36px;border-radius:50%;background:#3a3a3a;display:flex;align-items:center;justify-content:center;flex:none}}
 .ti{{font-size:16px;font-weight:500;line-height:22px;margin-bottom:4px}}.s{{color:#aaa;font-size:14px;line-height:20px}}</style></head><body>
-<div class="tabs"><button class="on" data-f="all">Alle</button><button data-f="ph">mit Platzhalter</button><button data-f="none">ohne Person</button></div><div class="g">{cards}</div>
+<div class="tabs"><a href="tierlist/"><button>Run: KI-Video-Tool Tier List →</button></a><button class="on" data-f="all">Alle</button><button data-f="ph">mit Platzhalter</button><button data-f="none">ohne Person</button></div><div class="g">{cards}</div>
 <script>document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');document.querySelectorAll('.c').forEach(c=>c.style.display=(b.dataset.f=='all'||c.dataset.k==b.dataset.f)?'':'none')}})</script></body></html>''')
 print(len(items))
